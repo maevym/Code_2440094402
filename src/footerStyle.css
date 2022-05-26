@@ -1,0 +1,28 @@
+footer{
+    margin-top: 150px;
+    text-align: center;
+    background-color: #A0C1B8;
+}
+
+footer h3{
+    color: black;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    footer h3{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer h3{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    footer h3{
+        font-size: 5px;
+    }
+}

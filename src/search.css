@@ -1,0 +1,138 @@
+.searchbox{
+    background:linear-gradient( rgba(75, 74, 74, 0.5), rgba(54, 54, 54, 0.5)), url("https://cdn.discordapp.com/attachments/808376451320774666/866695404522831922/fx1.jpg");
+    margin-top: 7vw;
+    text-align: center;
+    padding-bottom: 4vw;
+    padding-top: 4vw;
+}
+
+.empty{
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.searchbox h1{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 3.5vw;
+}
+
+.searchbox button{
+    padding: 0.5vw 1vw;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: white;
+    background-color: #726A95;
+}
+
+.searchbox button:hover{
+    background-color: #4e4477;
+}
+
+input{
+    padding: 0.5vw 2.5vw;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    outline: none;
+}
+
+.konten li{
+    display: block;
+}
+
+.NoKonten{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.NoKonten h1{
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.konten{
+    margin: 20px;
+    border: 2px solid #726A95;
+    border-radius: 25px;
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.kontenJudul{
+    text-align: center;
+    padding-top: 5vw;
+    padding-bottom: 1.5vw;
+    font-size: 2.5vw;
+    font-weight: bolder;
+}
+
+.kontenTitle{
+    font-size: 2vw;
+    font-weight: bold;
+    padding: 1vw 3vw 1vw 3vw;
+}
+
+.kontenDesc{
+    font-size: 1.5vw;
+    font-weight: 500;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+.konten button{
+    padding: 0.4vw 0.3vw 0.4vw 0.4vw;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1vw;
+    border-radius: 4px;
+    background: #719FB0;
+    color: white;
+    margin-bottom: 1vw;
+    cursor: pointer;
+}
+
+.konten button:hover{
+    background: #4a6772;
+}
+
+.loadStyle{
+    text-align: center;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+@media screen and (max-width: 992px) {
+    .searchbox h1{
+        font-size: 25px;
+    }
+    .NoKonten h1{
+        font-size: 20px;
+    }
+    .empty{
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .searchbox h1{
+        font-size: 20px;
+    }
+    .NoKonten h1{
+        font-size: 15px;
+    }
+    .empty{
+        margin-bottom: 400px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .searchbox h1{
+        font-size: 15px;
+    }
+    .NoKonten h1{
+        font-size: 10px;
+    }
+    .empty{
+        margin-bottom: 300px;
+    }
+}

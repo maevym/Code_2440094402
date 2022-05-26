@@ -1,0 +1,12 @@
+.mainPage{
+    background: linear-gradient( rgba(75, 74, 74, 0.5), rgba(54, 54, 54, 0.5)), url('https://cdn.discordapp.com/attachments/808376451320774666/866618706485575680/virus-airport-afp-2.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body, html{
+    height: 100%;
+    margin: 0;
+}

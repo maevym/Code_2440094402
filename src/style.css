@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.918);
+}
+
+nav{
+    background-color: #A0C1B8;
+    padding: 1.5vw;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 0.5vw;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    padding: 1.5vw 2vw;
+    background: #719FB0;
+    transition: all ease-in-out 0.2s;
+}
+
+nav a:hover{
+    background: rgb(236, 195, 144);
+    transition: all ease-in-out 0.2s;
+}
+
+nav .active{
+    background: #726A95;
+    color: #fff;
+}
+
+.logo{
+    padding-left: 65vw;
+    color: whitesmoke;
+}
+
+.intro{
+    margin-top: 15vw;
+    color: #351F39;
+    text-align: center;
+    margin-bottom: 25vw;
+}
+
+.intro h1{
+    color: whitesmoke;
+    margin-top: 0.5vw;
+    font-size: 50px;
+}
+.intro h3{
+    color: whitesmoke;
+    margin-top: 0.5vw;
+    font-size: 40px;
+}
+
+.intro p{
+    margin-top: 2vw;
+    color: white;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .logo{
+        padding-left: 55vw;
+    }
+    .intro{
+        margin-bottom: 35vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro{
+        margin-bottom: 40vw;
+    }
+    .intro h1{
+        font-size: 40px;
+    }
+    .intro h3{
+        font-size: 30p;
+    }
+    
+    .intro p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .logo{
+        padding-left: 35vw;
+        font-size: 3vw;
+    }
+    .intro{
+        margin-top: 150px;
+        margin-bottom: 200px;
+    }
+    .intro h1{
+        font-size: 15px;
+    }
+    .intro h3{
+        font-size: 10px;
+    }
+    
+    .intro p{
+        font-size: 5px;
+    }
+}
+
